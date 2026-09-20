@@ -2,68 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgriShield - Healthy Farms. Safer Food.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AgriShield Presentation</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">AgriShield</div>
-        <a href="#demo" class="nav-btn">Watch Demo</a>
+        <a href="Agrishield_App.apk" download class="btn download-btn">Download App</a>
     </nav>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>AI-Powered Insights for a Better Tomorrow.</h1>
-                <p>Ensure the health of your crops and the safety of your harvest with intelligent disease detection and pesticide safety tracking.</p>
-                <div class="hero-actions">
-                    <a href="Agrishield_App.apk" download class="btn primary-btn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        Download APK
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="demo-section" id="demo">
-            <div class="section-header">
-                <h2>See AgriShield in Action</h2>
-                <p>Watch how easy it is to protect your farm.</p>
-            </div>
-            
+    <main class="content-wrapper">
+        <section class="video-section">
+            <h1 class="main-title">Watch the Demo</h1>
             <div class="video-container">
-                <!-- Replace src with the actual demo video path -->
-                <video controls>
+                <video controls preload="metadata">
                     <source src="demo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
         </section>
 
-        <section class="features">
-            <div class="feature-card">
-                <h3>Crop Disease Detection</h3>
-                <p>Scan your plant leaves to instantly detect diseases using advanced computer vision.</p>
-            </div>
-            <div class="feature-card">
-                <h3>MRL & Spray Safety</h3>
-                <p>Keep track of pesticide usage to ensure your harvest is safe and export-ready.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Intelligent Assistant</h3>
-                <p>Control the app hands-free with your voice using our AI assistant.</p>
+        <section class="gallery-section">
+            <h2 class="section-title">App Screenshots</h2>
+            <div class="gallery-grid">
+                <img src="app images/img_1.jpg" alt="App Screenshot 1" class="gallery-img">
+                <img src="app images/img_2.jpg" alt="App Screenshot 2" class="gallery-img">
+                <img src="app images/img_3.jpg" alt="App Screenshot 3" class="gallery-img">
+                <img src="app images/img_4.jpg" alt="App Screenshot 4" class="gallery-img">
+                <img src="app images/img_5.jpg" alt="App Screenshot 5" class="gallery-img">
+                <img src="app images/img_6.jpg" alt="App Screenshot 6" class="gallery-img">
+                <img src="app images/screen.jpg" alt="App Screenshot 7" class="gallery-img">
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 AgriShield. All rights reserved.</p>
+        <p>&copy; 2026 AgriShield.</p>
     </footer>
 </body>
 </html>
